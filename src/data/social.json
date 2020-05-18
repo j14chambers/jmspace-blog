@@ -17,6 +17,12 @@
             "title": "DEV",
             "icon": "fa-dev",
             "url": "https://dev.to/jmspace"
+        },
+        {
+            "type": "codepen",
+            "title": "Codepen",
+            "icon": "fa-codepen",
+            "url": "https://codepen.io/jmspace"
         }
     ]
 }
