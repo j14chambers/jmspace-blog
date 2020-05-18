@@ -60,11 +60,13 @@
 }
 
 .site-title {
-  color: _palette(secondary);
+  //color: _palette(secondary);
   font-size: 1.11111rem;
   font-weight: bold;
   line-height: 1;
   margin: 0;
+
+  color: #d5931b;
 
   a {
     border: 0;
@@ -84,7 +86,7 @@
 }
 
 .site-navigation {
-  background: #fff;
+  //background: #fff;
   bottom: 0;
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
@@ -96,6 +98,8 @@
   visibility: hidden;
   width: 100%;
   z-index: 90;
+
+  background: #00534e;
 }
 
 .site-nav-wrap {
@@ -133,7 +137,9 @@
 
 .menu-item a:hover,
 .current-menu-item a {
-  color: _palette(accent);
+  //color: _palette(accent);
+
+  color: #d5931b;
 }
 
 .social-links {
@@ -178,12 +184,17 @@
 }
 
 .site-header.dark {
-  background: _palette(secondary);
+ // background: _palette(secondary);
   border: 0;
-  color: _palette(meta);
+  // color: _palette(meta);
+  background: #00534e;
+  color: #fff;
 
   .site-navigation {
-    background: _palette(secondary);
+    //background: _palette(secondary);
+    
+    background: #00534e;
+    
   }
 
   .site-title {
@@ -193,7 +204,8 @@
   .menu,
   .menu-item,
   .social-links a {
-    border-color: _palette(primary);
+   // border-color: _palette(primary);
+    border-color: #50c9f2;
   }
 
   .social-links a:hover {

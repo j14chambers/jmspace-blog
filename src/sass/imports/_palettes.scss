@@ -4,7 +4,8 @@
  */
 .palette-blue {
   a {
-    border-color: _palette(accent-blue);
+    //border-color: _palette(accent-blue);
+    border-color: #d5931b;
 
     &:hover {
       border-color: currentColor;
@@ -16,14 +17,19 @@
   input[type="button"],
   input[type="reset"],
   a.button {
-    background: _palette(accent-blue);
-    border-color: _palette(accent-blue);
+    //background: _palette(accent-blue);
+    //border-color: _palette(accent-blue);
+
+    background: #d5931b;
+    border-color: #d5931b;
 
     &:hover,
     &:focus,
     &:active {
       background: 0;
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue),.2);
+      //box-shadow: 0 0 1px 7px rgba(_palette(accent-blue),.2);
+      
+      box-shadow: 0 0 1px 7px rgba(213, 147, 27, 0.2);
     }
   }
 
@@ -56,12 +62,14 @@
 
   .menu-item a:hover,
   .current-menu-item a {
-    color: _palette(accent-blue);
+   // color: _palette(accent-blue);
+
+    color: #d5931b;
   }
 
   .social-links {
     a {
-      border-color: _palette(border);
+      //border-color: _palette(border);
 
       &:hover {
         background: _palette(accent-blue);
@@ -73,7 +81,7 @@
 
   .dark .social-links {
     a {
-      border-color: _palette(primary);
+      //border-color: _palette(primary);
 
       &:hover {
         border-color: _palette(accent-blue);
